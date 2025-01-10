@@ -5,15 +5,21 @@
 package TipusDePlantes;
 
 import Classes.Partida;
-
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  *
  * @author joelg
  */
+@Entity
+public class TipusDePlanta implements Serializable {
 
-public class TipusDePlanta {
+    private static final long serialVersionUID = 1L;
 
+    @Id
+    private int id;
     static Partida p;
     public String nomTipus;
     public String nomLlavor;
@@ -21,22 +27,21 @@ public class TipusDePlanta {
     public int fila;
     public int columna;
     public String explicacioEfecte;
-    
-    
-    public String getEstat(int edat){
+
+    public String getEstat(int edat) {
         return "";
     }
-    
-    public void efecte(){
-        
+
+    public void efecte() {
+
     }
-    
+
     public int getValorDeVenda() {
         return 0;
     }
-    
+
     @Override
-    public String toString(){
+    public String toString() {
         return "";
     }
 
@@ -79,9 +84,29 @@ public class TipusDePlanta {
     public void setExplicacioEfecte(String explicacioEfecte) {
         this.explicacioEfecte = explicacioEfecte;
     }
-    
-    
-    
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public static Partida getP() {
+        return p;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public static void setP(Partida p) {
+        TipusDePlanta.p = p;
+    }
+
+    public void setValorDeVenda(int valorDeVenda) {
+        this.valorDeVenda = valorDeVenda;
+    }
+
 }
-
-

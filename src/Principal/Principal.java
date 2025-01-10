@@ -33,8 +33,25 @@ public class Principal {
     public static void desaLaPartida() {
         
         
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/p3Martin.odb");
+        EntityManager em = emf.createEntityManager();
+        
+        em.getTransaction().begin();
+        
+        Partida consultaExistenciaPartida = em.find(Partida.class, p.id);
+        
+        if(consultaExistenciaPartida != null)
+        {
+            em.merge(p);
+        }
+        else
+        {
+            
+        }
+            
+        
+        
     }
-
     public static void carregaPartida() {
         // FEU SERVIR AQUESTA FUNCIÓ PER CARREGAR LA PARTIDA.
         

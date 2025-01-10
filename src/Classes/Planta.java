@@ -5,14 +5,19 @@
 package Classes;
 
 import TipusDePlantes.TipusDePlanta;
+import java.io.Serializable;
+import javax.persistence.Id;
 
 /**
  *
  * @author joelg
  */
 
-public class Planta {
+public class Planta implements Serializable {
+    private static final long serialVersionUID = 1L;
     
+    @Id
+    private int id;
     public TipusDePlanta tipus;
     public int edat;
     
@@ -40,6 +45,18 @@ public class Planta {
 
     public void setEdat(int edat) {
         this.edat = edat;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
     
     

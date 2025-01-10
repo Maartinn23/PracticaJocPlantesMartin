@@ -7,7 +7,7 @@ public class Partida implements Serializable{
     private static final long serialVersionUID = 1L;
     
     @Id
-    private int id;
+    public int id;
     public int dia = 0;
     public Inventari inventari = null;
     public Jardi jardi = null;
@@ -39,6 +39,18 @@ public class Partida implements Serializable{
 
     public void setJardi(Jardi jardi) {
         this.jardi = jardi;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     

@@ -4,13 +4,19 @@
  */
 package Classes;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  *
  * @author joelg
  */
-
+@Entity
 public class ItemInventari {
+    private static final long serialVersionUID = 1L;
     
+    @Id
+    private int id;
     public Llavor llavor;
     public int quantitat;
     public Inventari inventari;
@@ -62,7 +68,18 @@ public class ItemInventari {
         ItemInventari ii = (ItemInventari) o;
          return ii.llavor.nom.equals(this.llavor.nom);
     }
-    
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     
     
 }

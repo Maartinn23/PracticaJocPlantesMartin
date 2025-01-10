@@ -32,6 +32,14 @@ public class Inventari {
     public void setLlavors(ArrayList<ItemInventari> llavors) {
         this.llavors = llavors;
     }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public int getId() {
+        return id;
+    }
     
 
 }

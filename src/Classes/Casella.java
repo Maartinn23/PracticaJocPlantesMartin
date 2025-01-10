@@ -4,6 +4,7 @@
  */
 package Classes;
 
+import java.io.Serializable;
 import javax.persistence.*;
 
 /**
@@ -11,7 +12,7 @@ import javax.persistence.*;
  * @author joelg
  */
 
-public class Casella{
+public class Casella implements Serializable{
     @Id
     private int id;
     public Planta planta = null;
@@ -45,6 +46,14 @@ public class Casella{
 
     public void setTePlanta(boolean tePlanta) {
         this.tePlanta = tePlanta;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
     
     
