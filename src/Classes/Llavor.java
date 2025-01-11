@@ -14,7 +14,7 @@ public class Llavor implements Serializable{
     private static final long serialVersionUID = 1L;
     
     @Id
-    private int id;    
+    public int id;    
     public String nom;
     public TipusDePlanta tipus;
     

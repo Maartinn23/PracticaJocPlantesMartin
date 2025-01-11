@@ -17,7 +17,7 @@ public class Planta implements Serializable {
     private static final long serialVersionUID = 1L;
     
     @Id
-    private int id;
+    public int id;
     public TipusDePlanta tipus;
     public int edat;
     

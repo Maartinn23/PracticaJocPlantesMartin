@@ -22,40 +22,79 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
-
-
-
 public class Principal {
 
     static Scanner sc;
     static Partida p;
-    
+
     public static void desaLaPartida() {
-        
-        
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/p3Martin.odb");
         EntityManager em = emf.createEntityManager();
-        
+
         em.getTransaction().begin();
-        
+
         Partida consultaExistenciaPartida = em.find(Partida.class, p.id);
-        
-        if(consultaExistenciaPartida != null)
-        {
+
+        if (consultaExistenciaPartida != null) {
             em.merge(p);
+        } else {
+            for (ItemInventari item : p.inventari.llavors) {
+                TipusDePlanta tipusDePlanta = item.llavor.tipus;
+                if (em.find(TipusDePlanta.class, tipusDePlanta.id) == null) {
+                    em.persist(tipusDePlanta); // Persistencia del tipus de planta (nomLLavor,nomTipus i explicacioEfecte) en cas de que no existeixi.
+                } else {
+                    em.merge(tipusDePlanta); // En cas de que si existeixi, actualitzem l'objecte.
+                }
+            }
+
+            for (int x = 0; x < p.jardi.mapa.length; x++) {
+                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
+                    Casella casella = p.jardi.mapa[x][y];
+                    if (casella != null && casella.planta != null) {
+                        TipusDePlanta tipusDePlanta = casella.planta.tipus;
+                        if (em.find(TipusDePlanta.class, tipusDePlanta.id) == null) {
+                            em.persist(tipusDePlanta); // Persistencia del tipus de planta (fila i columna) en cas de que no existeixi.
+
+                        } else {
+                            em.merge(tipusDePlanta); // En cas de que si existeixi, actualitzem l'objecte.
+
+                        }
+                    }
+                }
+            }
+
+            for (ItemInventari itemInventari : p.inventari.llavors) {
+                Llavor llavor = itemInventari.llavor;
+                if (em.find(Llavor.class, itemInventari.llavor.id) == null) {
+                    em.persist(llavor); // Persistencia de Llavor en cas de que no existeixi.
+                } else {
+                    em.merge(llavor); // En cas de que si existeixi, actualitzem l'objecte.
+                }
+            }
+
+            for (int x = 0; x < p.jardi.mapa.length; x++) {
+                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
+                    Casella casella = p.jardi.mapa[x][y];
+                    if(casella != null && casella.planta != null){
+                        Planta planta = casella.planta;
+                        if(em.find(Planta.class, planta.id) == null){
+                            em.persist(planta); // Persistencia de Planta en cas de que no existeixi.
+                        } else {
+                            em.merge(planta); // En cas de que si existeixi, actualitzem l'objecte.
+                        }
+                    }
+
+                }
+            }
+
         }
-        else
-        {
-            
-        }
-            
-        
-        
+
     }
+
     public static void carregaPartida() {
         // FEU SERVIR AQUESTA FUNCIÓ PER CARREGAR LA PARTIDA.
-        
-        
+
         // Quan heu acabat de carregar s'inicia el joc.
         joc(false);
     }
@@ -397,7 +436,7 @@ public class Principal {
             System.out.println("1-Nova partida");
             System.out.println("2-Carrega la partida");
             System.out.println("3-Veure les instruccions");
-            
+
             opcio = sc.nextInt();
             sc.nextLine();
 

@@ -19,7 +19,7 @@ public class TipusDePlanta implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    private int id;
+    public int id;
     static Partida p;
     public String nomTipus;
     public String nomLlavor;
