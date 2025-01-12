@@ -8,7 +8,7 @@ import javax.persistence.*;
 public class Jardi implements Serializable{
     
     @Id
-    private int id;    
+    public int id;    
     public Casella[][] mapa = new Casella[10][10];
 
     public Casella[][] getMapa() {

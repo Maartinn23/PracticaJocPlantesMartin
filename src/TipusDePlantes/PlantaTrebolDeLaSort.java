@@ -7,19 +7,23 @@ package TipusDePlantes;
 import Classes.Partida;
 import Classes.Planta;
 import Utilities.ConsoleColors;
+import java.io.Serializable;
 import java.util.Random;
-
+import javax.persistence.Id;
 
 /**
  *
  * @author joelg
  */
+public class PlantaTrebolDeLaSort extends TipusDePlanta implements Serializable {
 
-public class PlantaTrebolDeLaSort extends TipusDePlanta {
+    private static final long serialVersionUID = 1L;
 
+    @Id
+    public int id;
     static Partida p;
-    
-    public PlantaTrebolDeLaSort(){
+
+    public PlantaTrebolDeLaSort() {
         nomTipus = "Trebol de la sort";
         explicacioEfecte = "Si està creixent: genera " + ConsoleColors.YELLOW + "entre 3 i 7 diners" + ConsoleColors.RESET + ".\n"
                 + "Si està madur: genera " + ConsoleColors.YELLOW + "entre 20 i 30 diners" + ConsoleColors.RESET + ".\n"
@@ -148,6 +152,22 @@ public class PlantaTrebolDeLaSort extends TipusDePlanta {
 
     public void setExplicacioEfecte(String explicacioEfecte) {
         this.explicacioEfecte = explicacioEfecte;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public static Partida getP() {
+        return p;
+    }
+
+    public static void setP(Partida p) {
+        PlantaTrebolDeLaSort.p = p;
     }
 
 }

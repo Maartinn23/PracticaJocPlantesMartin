@@ -11,7 +11,7 @@ import javax.persistence.*;
  *
  * @author joelg
  */
-
+@Entity
 public class Casella implements Serializable{
     @Id
     private int id;

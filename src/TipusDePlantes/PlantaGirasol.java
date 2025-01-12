@@ -7,19 +7,24 @@ package TipusDePlantes;
 import Classes.Partida;
 import Classes.Planta;
 import Utilities.ConsoleColors;
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  *
  * @author joelg
  */
+@Entity
+public class PlantaGirasol extends TipusDePlanta implements Serializable {
 
-public class PlantaGirasol extends TipusDePlanta {
+    private static final long serialVersionUID = 1L;
 
-
-
+    @Id
+    public int id;
     static Partida p;
 
-    public PlantaGirasol(){
+    public PlantaGirasol() {
         nomTipus = "Girasol";
         explicacioEfecte = "Si està creixent: genera " + ConsoleColors.YELLOW + "5 diners" + ConsoleColors.RESET + ".\n"
                 + "Si està madur: genera " + ConsoleColors.YELLOW + "10 diners" + ConsoleColors.RESET + ".\n"
@@ -28,7 +33,7 @@ public class PlantaGirasol extends TipusDePlanta {
 
         nomLlavor = "Llavor de " + ConsoleColors.YELLOW + "girasol" + ConsoleColors.RESET;
     }
-    
+
     public PlantaGirasol(Partida p) {
         PlantaGirasol.p = p;
         nomTipus = "Girasol";
@@ -171,6 +176,22 @@ public class PlantaGirasol extends TipusDePlanta {
 
     public void setExplicacioEfecte(String explicacioEfecte) {
         this.explicacioEfecte = explicacioEfecte;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public static Partida getP() {
+        return p;
+    }
+
+    public static void setP(Partida p) {
+        PlantaGirasol.p = p;
     }
 
 }

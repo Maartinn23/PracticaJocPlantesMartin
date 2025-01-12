@@ -98,7 +98,7 @@ public class Principal {
                 for (int y = 0; y < p.jardi.mapa[x].length; y++) {
                     Casella casella = p.jardi.mapa[x][y];
                     if (casella != null) {
-                        if(em.find(Casella.class, casella.hashCode())== null){
+                        if (em.find(Casella.class, casella.hashCode()) == null) {
                             em.persist(casella);
                         } else {
                             em.merge(casella);
@@ -106,21 +106,21 @@ public class Principal {
                     }
                 }
             }
-            
-            
-            if (em.find(Jardi.class, p.jardi.hashCode()) == null){
+
+            if (em.find(Jardi.class, p.jardi.id) == null) { 
                 em.persist(p.jardi);
             } else {
                 em.merge(p.jardi);
             }
-            
-            if (em.find(Partida.class, p.dia) == null){
-                em.persist(p.dia);
+
+            if (em.find(Partida.class, p.id) == null) { 
+                em.persist(p);
             } else {
-                em.merge(p.dia);
-            }            
+                em.merge(p); 
+            }
+
         }
-        
+
         em.getTransaction().commit();
         em.close();
         emf.close();
