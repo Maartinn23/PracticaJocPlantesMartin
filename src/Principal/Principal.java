@@ -76,9 +76,9 @@ public class Principal {
             for (int x = 0; x < p.jardi.mapa.length; x++) {
                 for (int y = 0; y < p.jardi.mapa[x].length; y++) {
                     Casella casella = p.jardi.mapa[x][y];
-                    if(casella != null && casella.planta != null){
+                    if (casella != null && casella.planta != null) {
                         Planta planta = casella.planta;
-                        if(em.find(Planta.class, planta.id) == null){
+                        if (em.find(Planta.class, planta.id) == null) {
                             em.persist(planta); // Persistencia de Planta en cas de que no existeixi.
                         } else {
                             em.merge(planta); // En cas de que si existeixi, actualitzem l'objecte.
@@ -87,9 +87,43 @@ public class Principal {
 
                 }
             }
+            if (em.find(Inventari.class, p.inventari.diners) != null) {
+                em.persist(p.inventari);
 
+            } else {
+                em.merge(p.inventari);
+            }
+
+            for (int x = 0; x < p.jardi.mapa.length; x++) {
+                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
+                    Casella casella = p.jardi.mapa[x][y];
+                    if (casella != null) {
+                        if(em.find(Casella.class, casella.hashCode())== null){
+                            em.persist(casella);
+                        } else {
+                            em.merge(casella);
+                        }
+                    }
+                }
+            }
+            
+            
+            if (em.find(Jardi.class, p.jardi.hashCode()) == null){
+                em.persist(p.jardi);
+            } else {
+                em.merge(p.jardi);
+            }
+            
+            if (em.find(Partida.class, p.dia) == null){
+                em.persist(p.dia);
+            } else {
+                em.merge(p.dia);
+            }            
         }
-
+        
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
     }
 
     public static void carregaPartida() {
