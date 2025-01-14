@@ -454,3 +454,943 @@ Type Classes.Planta is not enhanced.
 [2025-01-14 19:39:06 #12 store] 
 Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 12364@P-CICLES-68
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:49:37 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 13874@P-CICLES-68
+
+[2025-01-14 19:49:37 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:49:37 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:49:37 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:49:37 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:49:37 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:49:37 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:51:00 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 14109@P-CICLES-68
+
+[2025-01-14 19:51:00 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:51:01 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:51:01 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:51:01 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:51:01 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:51:01 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 19:51:01 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 19:51:01 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 19:51:01 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 19:51:01 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 19:51:01 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 19:51:01 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 14109@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:52:07 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 14342@P-CICLES-68
+
+[2025-01-14 19:52:07 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:52:07 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:52:07 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:52:07 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:52:07 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:52:07 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 19:52:07 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 19:52:07 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 19:52:07 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 19:52:07 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 19:52:07 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 19:52:07 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 14342@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:55:52 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 14566@P-CICLES-68
+
+[2025-01-14 19:55:52 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:55:52 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:55:52 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:55:52 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:55:52 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:55:52 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 19:55:52 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 19:55:52 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 19:55:52 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 19:55:52 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 19:55:52 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 19:55:52 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 14566@P-CICLES-68
+
+[2025-01-14 19:56:10 #14 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 14566@P-CICLES-68
+
+[2025-01-14 19:56:10 #15 store] 
+Configuration path: ?
+
+[2025-01-14 19:56:10 #16 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 14566@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:57:38 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 14721@P-CICLES-68
+
+[2025-01-14 19:57:38 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:57:38 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:57:38 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:57:38 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:57:38 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:57:38 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 19:57:38 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 19:57:38 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 19:57:38 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 19:57:38 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 19:57:38 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 19:57:38 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 14721@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 19:59:40 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 15171@P-CICLES-68
+
+[2025-01-14 19:59:40 #2 store] 
+Configuration path: ?
+
+[2025-01-14 19:59:40 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 19:59:40 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 19:59:40 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 19:59:40 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 19:59:40 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 19:59:40 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 19:59:40 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 19:59:40 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 19:59:40 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 19:59:40 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 19:59:40 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 15171@P-CICLES-68
+
+[2025-01-14 19:59:42 #14 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 15171@P-CICLES-68
+
+[2025-01-14 19:59:42 #15 store] 
+Configuration path: ?
+
+[2025-01-14 19:59:42 #16 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 15171@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:01:43 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 15513@P-CICLES-68
+
+[2025-01-14 20:01:43 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:01:43 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:01:43 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:01:43 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:01:43 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:01:43 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:01:43 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:01:43 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:01:43 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:01:43 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:01:43 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:01:43 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 15513@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:03:05 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 15774@P-CICLES-68
+
+[2025-01-14 20:03:05 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:03:05 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:03:05 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:03:05 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:03:05 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:03:05 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:03:05 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:03:05 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:03:05 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:03:05 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:03:05 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:03:05 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 15774@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:09:15 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 16500@P-CICLES-68
+
+[2025-01-14 20:09:15 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:09:15 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:09:15 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:09:15 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:09:15 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:09:15 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:09:15 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:09:15 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:09:15 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:09:15 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:09:15 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:09:15 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 16500@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:20:38 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 17298@P-CICLES-68
+
+[2025-01-14 20:20:38 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:20:38 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:20:38 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:20:38 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:20:38 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:20:38 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:20:38 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:20:38 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:20:38 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:20:38 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:20:38 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:20:38 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 17298@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:22:59 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 17488@P-CICLES-68
+
+[2025-01-14 20:22:59 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:22:59 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:22:59 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:22:59 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:22:59 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:22:59 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:22:59 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:22:59 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:22:59 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:22:59 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:22:59 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:22:59 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 17488@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:32:03 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 17997@P-CICLES-68
+
+[2025-01-14 20:32:03 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:32:03 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:32:03 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:32:03 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:32:03 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:32:03 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:32:03 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:32:03 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:32:03 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:32:03 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:32:03 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:32:04 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 17997@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:32:44 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 18099@P-CICLES-68
+
+[2025-01-14 20:32:44 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:32:44 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:32:44 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:32:44 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:32:44 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:32:44 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:32:44 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:32:44 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:32:44 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:32:44 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:32:44 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:32:44 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 18099@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:43:05 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 18984@P-CICLES-68
+
+[2025-01-14 20:43:05 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:43:05 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:43:05 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:43:05 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:43:05 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:43:05 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:43:05 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:43:05 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:43:05 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:43:05 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:43:05 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:43:05 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 18984@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:43:42 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19083@P-CICLES-68
+
+[2025-01-14 20:43:42 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:43:42 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:43:42 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:43:42 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:43:42 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:43:42 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:43:42 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:43:42 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:43:42 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:43:42 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:43:42 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:43:42 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19083@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:44:35 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19222@P-CICLES-68
+
+[2025-01-14 20:44:35 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:44:35 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:44:35 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:44:35 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:44:35 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:44:35 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:44:35 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:44:35 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:44:35 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:44:35 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:44:35 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:44:35 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19222@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:45:31 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19295@P-CICLES-68
+
+[2025-01-14 20:45:31 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:45:31 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:45:31 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:45:31 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:45:31 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:45:31 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:45:31 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:45:31 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:45:31 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:45:31 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:45:31 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:45:31 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19295@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:45:55 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19437@P-CICLES-68
+
+[2025-01-14 20:45:55 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:45:55 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:45:55 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:45:55 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:45:55 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:45:55 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:45:55 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:45:55 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:45:55 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:45:55 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:45:55 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:45:55 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19437@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:46:31 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19586@P-CICLES-68
+
+[2025-01-14 20:46:31 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:46:31 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:46:31 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:46:31 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:46:31 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:46:31 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:46:31 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:46:31 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:46:31 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:46:31 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:46:31 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:46:31 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19586@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:48:27 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19791@P-CICLES-68
+
+[2025-01-14 20:48:27 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:48:27 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:48:27 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:48:27 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:48:27 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:48:27 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:48:27 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:48:27 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:48:27 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:48:27 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:48:27 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:48:27 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19791@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:49:25 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 19903@P-CICLES-68
+
+[2025-01-14 20:49:25 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:49:25 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:49:25 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:49:25 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:49:25 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:49:25 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:49:25 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:49:25 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:49:25 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:49:25 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:49:25 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:49:25 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 19903@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 20:53:39 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 20267@P-CICLES-68
+
+[2025-01-14 20:53:39 #2 store] 
+Configuration path: ?
+
+[2025-01-14 20:53:39 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 20:53:39 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 20:53:39 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 20:53:39 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 20:53:39 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 20:53:39 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 20:53:39 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 20:53:39 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 20:53:39 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 20:53:39 #12 type] 
+Type Classes.Partida is not enhanced.
+
+[2025-01-14 20:53:39 #13 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is closed by 20267@P-CICLES-68
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-01-14 21:02:31 #1 store] 
+Database '/home/alumnegs/NetBeansProjects/PracticaJocPlantesMartin/db/p3Martin.odb' is opened by 20858@P-CICLES-68
+
+[2025-01-14 21:02:31 #2 store] 
+Configuration path: ?
+
+[2025-01-14 21:02:31 #3 type] 
+Type Classes.Llavor is not enhanced.
+
+[2025-01-14 21:02:31 #4 type] 
+Type TipusDePlantes.TipusDePlanta is not enhanced.
+
+[2025-01-14 21:02:31 #5 type] 
+Type TipusDePlantes.PlantaGirasol is not enhanced.
+
+[2025-01-14 21:02:31 #6 type] 
+Type Classes.ItemInventari is not enhanced.
+
+[2025-01-14 21:02:31 #7 type] 
+Type Classes.Inventari is not enhanced.
+
+[2025-01-14 21:02:31 #8 type] 
+Type TipusDePlantes.PlantaTrebolDeLaSort is not enhanced.
+
+[2025-01-14 21:02:31 #9 type] 
+Type Classes.Planta is not enhanced.
+
+[2025-01-14 21:02:31 #10 type] 
+Type Classes.Casella is not enhanced.
+
+[2025-01-14 21:02:31 #11 type] 
+Type Classes.Jardi is not enhanced.
+
+[2025-01-14 21:02:31 #12 type] 
+Type Classes.Partida is not enhanced.
+

@@ -61,8 +61,7 @@ public class Principal {
             em.merge(p);
         }
 
-        em.getTransaction()
-                .commit();
+        em.getTransaction().commit();
         em.close();
 
         emf.close();
@@ -75,8 +74,7 @@ public class Principal {
 
         em.getTransaction().begin();
 
-        TypedQuery<Partida> consultaPartida = em.createQuery("SELECT p FROM Partida p", Partida.class
-        );
+        TypedQuery<Partida> consultaPartida = em.createQuery("SELECT p FROM Partida p", Partida.class);
         List<Partida> resultatConsultaPartida = consultaPartida.getResultList();
 
         if (resultatConsultaPartida.isEmpty()) {
@@ -84,15 +82,25 @@ public class Principal {
         }
 
         Partida partidaCarregada = resultatConsultaPartida.get(0);
-        p = partidaCarregada;
 
-        em.getTransaction().commit();
-        System.out.println("Partida carregada correctament");
+//        for (ItemInventari item : partidaCarregada.getInventari().getLlavors()){
+//               System.out.println(item.getLlavor().getNom());
+//        }
+        Partida partida2 = new Partida();
 
-        em.close();
-        emf.close();
+        if (partidaCarregada.inventari != null) {
+            partida2.dia = p.dia;
+            partida2.inventari = p.inventari;
+            partida2.jardi = p.jardi;
 
-        joc(false);
+            em.getTransaction().commit();
+            System.out.println("Partida carregada correctament");
+
+            em.close();
+            emf.close();
+
+            joc(false);
+        }
     }
 
     public static void venPlantes() {

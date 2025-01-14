@@ -9,12 +9,14 @@ import Classes.Planta;
 import Utilities.ConsoleColors;
 import java.io.Serializable;
 import java.util.Random;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
  *
  * @author joelg
  */
+@Entity
 public class PlantaTrebolDeLaSort extends TipusDePlanta implements Serializable {
 
     private static final long serialVersionUID = 1L;
