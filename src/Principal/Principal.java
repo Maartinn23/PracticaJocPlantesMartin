@@ -34,102 +34,64 @@ public class Principal {
 
         em.getTransaction().begin();
 
-        Partida consultaExistenciaPartida = em.find(Partida.class, p.id);
+        for (ItemInventari item : p.getInventari().getLlavors()) {
+            em.merge(item.getLlavor());
+            em.merge(item.getLlavor().getTipus());
+            em.merge(item);
+        }
+        em.merge(p.getInventari());
 
-        if (consultaExistenciaPartida != null) {
-            em.merge(p);
-        } else {
-            for (ItemInventari item : p.inventari.llavors) {
-                TipusDePlanta tipusDePlanta = item.llavor.tipus;
-                if (em.find(TipusDePlanta.class, tipusDePlanta.id) == null) {
-                    em.persist(tipusDePlanta); // Persistencia del tipus de planta (nomLLavor,nomTipus i explicacioEfecte) en cas de que no existeixi.
-                } else {
-                    em.merge(tipusDePlanta); // En cas de que si existeixi, actualitzem l'objecte.
-                }
-            }
-
-            for (int x = 0; x < p.jardi.mapa.length; x++) {
-                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
-                    Casella casella = p.jardi.mapa[x][y];
-                    if (casella != null && casella.planta != null) {
-                        TipusDePlanta tipusDePlanta = casella.planta.tipus;
-                        if (em.find(TipusDePlanta.class, tipusDePlanta.id) == null) {
-                            em.persist(tipusDePlanta); // Persistencia del tipus de planta (fila i columna) en cas de que no existeixi.
-
-                        } else {
-                            em.merge(tipusDePlanta); // En cas de que si existeixi, actualitzem l'objecte.
-
-                        }
-                    }
-                }
-            }
-
-            for (ItemInventari itemInventari : p.inventari.llavors) {
-                Llavor llavor = itemInventari.llavor;
-                if (em.find(Llavor.class, itemInventari.llavor.id) == null) {
-                    em.persist(llavor); // Persistencia de Llavor en cas de que no existeixi.
-                } else {
-                    em.merge(llavor); // En cas de que si existeixi, actualitzem l'objecte.
-                }
-            }
-
-            for (int x = 0; x < p.jardi.mapa.length; x++) {
-                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
-                    Casella casella = p.jardi.mapa[x][y];
-                    if (casella != null && casella.planta != null) {
-                        Planta planta = casella.planta;
-                        if (em.find(Planta.class, planta.id) == null) {
-                            em.persist(planta); // Persistencia de Planta en cas de que no existeixi.
-                        } else {
-                            em.merge(planta); // En cas de que si existeixi, actualitzem l'objecte.
-                        }
-                    }
+        for (int x = 0; x < p.jardi.mapa.length; x++) {
+            for (int y = 0; y < p.jardi.mapa[x].length; y++) {
+                Casella casella = p.getJardi().getMapa()[x][y];
+                if (casella != null) {
+                    em.merge(casella.getPlanta().getTipus());
+                    em.merge(casella.getPlanta());
+                    em.merge(casella);
 
                 }
             }
-            if (em.find(Inventari.class, p.inventari.diners) != null) {
-                em.persist(p.inventari);
-
-            } else {
-                em.merge(p.inventari);
-            }
-
-            for (int x = 0; x < p.jardi.mapa.length; x++) {
-                for (int y = 0; y < p.jardi.mapa[x].length; y++) {
-                    Casella casella = p.jardi.mapa[x][y];
-                    if (casella != null) {
-                        if (em.find(Casella.class, casella.hashCode()) == null) {
-                            em.persist(casella);
-                        } else {
-                            em.merge(casella);
-                        }
-                    }
-                }
-            }
-
-            if (em.find(Jardi.class, p.jardi.id) == null) { 
-                em.persist(p.jardi);
-            } else {
-                em.merge(p.jardi);
-            }
-
-            if (em.find(Partida.class, p.id) == null) { 
-                em.persist(p);
-            } else {
-                em.merge(p); 
-            }
-
         }
 
-        em.getTransaction().commit();
+        if (em.find(Jardi.class, p.jardi.id) == null) {
+            em.merge(p.jardi);
+        }
+
+        if (em.find(Partida.class, p.id) == null) {
+            em.merge(p);
+        }
+
+        em.getTransaction()
+                .commit();
         em.close();
+
         emf.close();
+
     }
 
     public static void carregaPartida() {
-        // FEU SERVIR AQUESTA FUNCIÓ PER CARREGAR LA PARTIDA.
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/p3Martin.odb");
+        EntityManager em = emf.createEntityManager();
 
-        // Quan heu acabat de carregar s'inicia el joc.
+        em.getTransaction().begin();
+
+        TypedQuery<Partida> consultaPartida = em.createQuery("SELECT p FROM Partida p", Partida.class
+        );
+        List<Partida> resultatConsultaPartida = consultaPartida.getResultList();
+
+        if (resultatConsultaPartida.isEmpty()) {
+            System.out.println("No n'hi ha cap partida per carregar");
+        }
+
+        Partida partidaCarregada = resultatConsultaPartida.get(0);
+        p = partidaCarregada;
+
+        em.getTransaction().commit();
+        System.out.println("Partida carregada correctament");
+
+        em.close();
+        emf.close();
+
         joc(false);
     }
 
@@ -345,10 +307,14 @@ public class Principal {
             try {
                 // Netejem la pantalla
                 new ProcessBuilder("/bin/bash", "-c", "clear").inheritIO().start().waitFor();
+
             } catch (IOException ex) {
-                Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Principal.class
+                        .getName()).log(Level.SEVERE, null, ex);
+
             } catch (InterruptedException ex) {
-                Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Principal.class
+                        .getName()).log(Level.SEVERE, null, ex);
             }
 
             // Mostrem els diners actuals
@@ -460,10 +426,14 @@ public class Principal {
             try {
                 // Netejem la pantalla
                 new ProcessBuilder("/bin/bash", "-c", "clear").inheritIO().start().waitFor();
+
             } catch (IOException ex) {
-                Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Principal.class
+                        .getName()).log(Level.SEVERE, null, ex);
+
             } catch (InterruptedException ex) {
-                Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Principal.class
+                        .getName()).log(Level.SEVERE, null, ex);
             }
             System.out.println("Benvingut al joc del jardí.");
             System.out.println("0-Surt del joc");
