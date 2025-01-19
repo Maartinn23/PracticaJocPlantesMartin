@@ -79,35 +79,47 @@ public class Principal {
 
         if (resultatConsultaPartida.isEmpty()) {
             System.out.println("No n'hi ha cap partida per carregar");
+            em.getTransaction().commit();
+            em.close();
+            emf.close();
+            return;
         }
 
         Partida partidaCarregada = resultatConsultaPartida.get(0);
+        p = partidaCarregada;
 
-        for (ItemInventari item : partidaCarregada.getInventari().getLlavors()){
-               System.out.println(item.getLlavor().getNom());
+        for (ItemInventari item : partidaCarregada.getInventari().getLlavors()) {
+            System.out.println("Llavor: " + item.getLlavor().getNom());
         }
-                   System.out.println("Verificando la partida cargada:");
-            if (p.getInventari() == null) {
-                System.out.println("Inventari es NULL.");
-            } else {
-                System.out.println("Inventari cargado correctamente.");
-                if (p.getInventari().getLlavors() == null) {
-                    System.out.println("Llavors en Inventari es NULL.");
-                } else {
-                    System.out.println("Llavors en Inventari cargadas correctamente: " + p.getInventari().getLlavors().size() + " items.");
-                }
-            }
 
-            if (p.getJardi() == null) {
-                System.out.println("Jardi es NULL.");
+        System.out.println("Verificant la partida carregada:");
+        if (p.getInventari() == null) {
+            System.out.println("Inventari es NULL.");
+        } else {
+            System.out.println("Inventari carregat correctament.");
+            if (p.getInventari().getLlavors() == null) {
+                System.out.println("Llavors en Inventari es NULL.");
             } else {
-                System.out.println("Jardi cargado correctamente.");
-                if (p.getJardi().getMapa() == null) {
-                    System.out.println("Mapa del Jardi es NULL.");
-                } else {
-                    System.out.println("Mapa del Jardi cargado correctamente.");
-                }
+                System.out.println("Llavors en Inventari carregades correctament: " + p.getInventari().getLlavors().size() + " items.");
             }
+        }
+
+        if (p.getJardi() == null) {
+            System.out.println("Jardi es NULL.");
+        } else {
+            System.out.println("Jardi carregat correctament.");
+            if (p.getJardi().getMapa() == null) {
+                System.out.println("Mapa del Jardi es NULL.");
+            } else {
+                System.out.println("Mapa del Jardi carregat.");
+            }
+        }
+
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+
+        joc(false);
     }
 
     public static void venPlantes() {
